@@ -1,0 +1,8 @@
+first i go all the letters from the emails using 
+grep -o [a-z]*@neisd.net directory.cfm  | sort -u
+
+then i added the numbers with the command
+grep -o [a-z]*[1-9]*@neisd.net directory.cfm  | sort -u
+
+and this listed the email adresses
+# Portales_2_journal
