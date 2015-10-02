@@ -1,0 +1,7 @@
+A file system is the thing that makes the computer store files 
+
+A inode is a data strucute used in file systems
+
+A disk partition is a division of storage in the hard drive
+
+Journaling file systems is a file system that keeps track of files
