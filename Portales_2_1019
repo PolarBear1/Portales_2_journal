@@ -1,0 +1,16 @@
+A disk image is a computer file containing the info of a disk volume
+
+The command to make a disk image is DD
+
+A disk partition is like a storage for filesysytems
+
+A disk image has enough partitions for that 1 image which depends on the size of the image.
+
+This can pose as a problem because if they get overritten, the image would get corupted.
+
+To work with this you must make a backup of your disk so that if something gets corrupted you can always have a saved file 
+If you dont have a backup you whould have a difficult time fixing your mistakes.
+
+
+
+
