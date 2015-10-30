@@ -2,3 +2,12 @@ We use disk images in DF because it makes it easier to manage any evidence that 
 
 To prevent a USB from going beack and forth across the US, we can just make a disk image of the USB and be able to have 
 its info so we can send it anywhere and not have and complications
+
+The steps to create a empty disk image is to:
+fallocate
+cfdisk
+kpartx
+mkfs
+
+
+The OSI model related to the disk image because every OSI has its own unique disk image 
