@@ -1,0 +1,3 @@
+We can combine multiple files by using the CAT command with all the files we want to command
+e.g.
+cat file0 file1 file2 >> CombinedFile
