@@ -1,0 +1,8 @@
+we split multiple files in linux by using the "split" command
+
+
+fallocate  to create
+cfdisk  to write
+kpartx 
+mount to mount
+unmount to unmount
