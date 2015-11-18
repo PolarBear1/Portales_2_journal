@@ -1,0 +1,3 @@
+We can find the file header for jpeg and for png by using a xxd then the name of the image then we grep ffd8
+
+The output would be information you are looknig for 
