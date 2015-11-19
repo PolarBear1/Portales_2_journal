@@ -1,0 +1,18 @@
+We locate the begining of an image file by using ffd8 with the grep command
+
+
+First we search for a standard JPEG image.We search for the standard JPEG image by using the command xxd image.raw | grep ffd8
+
+Then we bc to find the line. 
+
+Using the value from that - we use ibase and the line number to convert line number to a decimal number.
+
+For example, in the example from yesterday, we found the line number and converted it to decimal using the command ibase
+xxd -s 21156 image_carve.raw | grep ffd9
+echo "ibase=16;0006C74" | bc
+
+Then to find the end of the file, we searched for ffd9 using the command xxd -s 21156 image_carve.raw | grep ffd9
+
+Using that information, we find the number of bits, using the command bc command
+
+Then using dd we can reconstruct the file using the commands  skip bs and count.
