@@ -5,7 +5,7 @@ First we search for a standard JPEG image.We search for the standard JPEG image 
 
 Then we bc to find the line. 
 
-Using the value from that - we use ibase and the line number to convert line number to a decimal number.
+Using the value from that - we use  echo "ibase=16;0006C74" | bc to convert line number to a decimal number.
 
 For example, in the example from yesterday, we found the line number and converted it to decimal using the command ibase
 xxd -s 21156 image_carve.raw | grep ffd9
