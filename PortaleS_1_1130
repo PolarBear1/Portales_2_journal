@@ -1,0 +1,23 @@
+This site provides some useful information on file details for JPEG and how it is organized
+It makes it easier for someone to find the default deatils on a JPEG image without digging everywhere for it
+
+This would make a digital forensisicts life a lot easier and more efficient by knowing this info before they start looking 
+for it manually
+
+
+This PDF has all of the file types and their corresponding bit start
+it aloso contains the grep and sort command with corresponding commands
+
+
+Excel document 
+find the begining  (D0 CF 11 E0 11 E0) using xxd image | grep ffd8
+then we echo the result (echo=ibase16;LINE" | bc
+next we xxd -s RESULT image | grep ffd9
+then we echo "ibase=16;RESULTLINE" | bc 
+net we echo "RESLUT1-RESULT2" and get RESULT3
+finnaly we dd if=image of=carv skip=RESULT1 bs=1 count=RESULT3
+then to look at the final product we xv carv to see the image
+
+To find the other file types we do the same process but with its corresponding LINe and RESULTs
+
+
