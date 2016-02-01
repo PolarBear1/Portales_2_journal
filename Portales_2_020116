@@ -1,0 +1,28 @@
+xmount --in ewf /usr/share/digitalforensics/images/nps-2008-jean.E?? ewf/
+
+mmls -i raw -o 63 ewf/nps-2008-jean.dd
+
+fls -i raw -o 63 ewf/nps-2008-jean.dd >> bodyfile.txt 
+
+cat bodyfile.txt  |grep xls
+
+mactime -b bodyfile.txt  > mactimeout.csv
+
+icat -o 63 -i raw ewf/nps-2008-jean.dd 32712 > example.xls
+
+grep -abi "*@m57*" ewf/nps-2008-jean.dd
+
+fls -r -i raw -o 63 nps-2008-jean.dd |grep "\.pst"
+
+icat -o 63 -i raw ewf/nps-2008-jean.dd 17358 > outlook.pst
+
+pffexport -m all -t outlook.pst.export/ outlook2.pst
+
+cd outlook.pst.export/Top\ of\ Personal\ Folders/
+
+grep -rw "@m57.biz" Inbox/
+
+
+
+
+
