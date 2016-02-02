@@ -19,7 +19,7 @@ Date: Sat, 19 Jul 2008 16:39:57 -0700 (PDT)
 
 The parts consist of the sender, the receiver, the subject of the email and its Id, and the date and time he email was sent 
 
-There are 3 receivers for one sender that may have only sent it once.
+The return path has a suspicios sender.(not from allison)
 
 This allows FS to trace back who sent and received emails. 
 
