@@ -4,4 +4,18 @@
 
 3.The IP is  and is very common due to this being the range private IP adresses are
 
-4.
+4.Verisign is a ssl cerificate signer
+
+5.The language in question is python
+
+6.ack are aknowldgement numbers and sseq is sequence which are part of the 3 way hand shake(ack,seq,ackseq)
+
+7.we can see if someone sent an email by greping for something with "mail"
+
+8.There is a printer in the network because of the udp files that printers send
+
+9.There was gov sites where accessed and can be seen by using grep
+
+10.It is a cloud based information service that will be able to send and receive info
+
+
