@@ -1,0 +1,11 @@
+1. tcpick is a stream sniffer and connection tracker
+
+2.chaosreader traces network sessions and exports it to html format
+
+3.tcpflow is a flow recorder
+
+4.driftnet traces and captures images from network traffic and displays them in a window.You may also capture
+audio and play is back using this.
+
+5.Using these commands on public networks is illegal because tracking the activities of othe people is 
+illegal.
