@@ -1,1 +1,16 @@
+1.I see a bunch of packages of apps that are on my VM and a description of what the apps do
+
+2.sniffit - packet sniffer and monitoring tool
+php-codesniffer - tokenises PHP code and detects violations of a defined set of coding standards
+hunt - Advanced packet sniffer and connection intrusion
+
+3.The 0 may mean that the IP adress of the user is not being forwarded.
+
+4.The user may want to change the value to 1 so they can forward their IP
+to other users
+
+5.apt-get install zenmap
+apt-get update  
+
+6.
 
