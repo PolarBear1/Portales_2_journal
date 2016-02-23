@@ -28,13 +28,13 @@ the Host was up for each computer
 
 12.nmap -O 10.2.27.1-29
 
-13.
+13. 10.4.27.20
 
-14.
+14. 10.4.27.18
 
 15.Prints host interfaces and routes for debuging
 
-16.
+16. 
 
 17.
 
