@@ -1,8 +1,8 @@
 1.I see a bunch of packages of apps that are on my VM and a description of what the apps do
 
 2.sniffit - packet sniffer and monitoring tool
-php-codesniffer - tokenises PHP code and detects violations of a defined set of coding standards
-hunt - Advanced packet sniffer and connection intrusion
+  php-codesniffer - tokenises PHP code and detects violations of a defined set of coding standards
+  hunt - Advanced packet sniffer and connection intrusion
 
 3.The 0 may mean that the IP adress of the user is not being forwarded.
 
@@ -10,7 +10,34 @@ hunt - Advanced packet sniffer and connection intrusion
 to other users
 
 5.apt-get install zenmap
-apt-get update  
+  apt-get update  
 
-6.
+6.I see 25 services that I have on my VM and its current state of CLOSED or OPEN
 
+7.It changed the number of programs I see but when i ghet too high of a number it just tells me how many 
+are CLOSED without telling me the names of the services.
+
+8.I see nmap reports of all the computers that are connected to this IP adress
+
+9.This can be useful to se all the computers that accesed the IP adress that the same time.We can also see the time 
+the Host was up for each computer
+
+10.An os is an Operating System of the computer
+
+11.To see all the devices that are connected to the networ
+
+12.nmap -O 10.2.27.1-29
+
+13.
+
+14.
+
+15.Prints host interfaces and routes for debuging
+
+16.
+
+17.
+
+18.
+
+19.To see if there is any sort of spike in suspicious activity 
