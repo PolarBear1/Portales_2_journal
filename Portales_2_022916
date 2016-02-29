@@ -1,0 +1,11 @@
+1. 2 of the detective reports are of possible kitty explooitation.One is of contact with Pat McGoo who owns the company 
+of kitty exploitation.The last one was to get a warrant for a USB suspected of transfering kitty exploitation material.
+
+2.We can check all the network activity that this company is producing to determine if they are sending/receiving kitty
+exploitation files/dumps
+
+3. 1)get a pcap of their computer to see all files accesed
+   2)search the USB of the suspect to get more info
+   3)make a dd of the computer to see all the un deleted images and make copies of them to keep as evidence
+   
+   
