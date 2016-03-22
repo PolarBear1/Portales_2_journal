@@ -1,0 +1,11 @@
+1.
+a standard for the short-range wireless interconnection of cellular phones, computers, and other electronic devices.
+
+2.
+I didn't mention bluetoothn at all in my solding DF crime because I did not find a place to implement bluetooth
+into it but also ciompletely forgot about L337 bluetooth hacking    
+
+3.
+hciconfig-used to configure Bluetooth devices
+hcitool-used to configure Bluetooth connections and send some special command to Bluetooth devices.
+hcidump-reads raw HCI data coming to and from to a Bluetooth device and  prints to screen commands to a readable form.
