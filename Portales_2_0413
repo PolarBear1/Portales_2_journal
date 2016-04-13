@@ -1,0 +1,21 @@
+
+1)Having to adjust your searching tools to the device or devices that are in question of any cyber crime.It 
+gets challenging as there is a variety of phones(Android,iPhone,Blckberry,etc.) and devices that all are unique in
+the operation system they uses as well as being able to crack older OSs because criminals use all kinds of devices 
+to keep things clever.
+
+2)The "CSI effect" is how TV depicts unrealistic the standards in DF are.In TV they can recover overritten data,
+have no false positives, encrypted data can be cracked and a lot of other stuff that cant be done in real life
+
+3)Having a good amount of data that you can work with that have data on them.It is easy to destingish the file type
+from the file Head and Tail as each file has its own UNIQUE header and tail.
+
+4)Simple Solution:
+      1.Read a Random Sector
+          If there is data, the drive is not is not wiped
+      2.Read until satisfied
+      
+5)bulk_extractor-steam based feature extractor
+  DFXML-An XML lanuage
+  Data!-Not sure if this is the 3rd tool but its the 3rd one under the tools slide
+
