@@ -1,0 +1,19 @@
+
+1)8 MitM attacks i've found:
+  Address Resolution Protocol (ARP) spoofing-
+  domain name system (DNS) spoofing
+  Spanning Tree Protocol (STP) mangling
+  port stealing 
+  Dynamic Host Configuration Protocol (DHCP) spoofing
+  Internet Control Message Protocol (ICMP) redirection-
+  traffic tunneling
+  route mangling
+  
+2)You may use a private-public key technology which changes 
+  You may also use SSL communicationsbecause they are only brkone into if:
+    The server key has been stolen.
+    A fake server key has been issued by a compromised CA.
+    The client doesn't validate the certificate correctly against its list of trusted CAs.
+    The client has been attacked and a fake CA has been injected in its trusted root authorities store.
+  
+ 
