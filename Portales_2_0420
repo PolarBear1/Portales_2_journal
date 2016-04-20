@@ -1,0 +1,21 @@
+
+1)The bandwidth of wifi is 2.4 GHz (just like Bluetooth)
+
+2)WIFI has multiple channels and they are 1-11 (1-14 but 12,13 and 14 are illegal to access in North America)
+
+3)The most common of them all is 1,6 and 11 because they dont interfer with eachother
+A, B, G, N,use 2.4 Ghz while AC uses 5 GHz
+
+4)Diffrent types of wifi encryptions.WEP is the oldest and most vulnerable.WPA is newer but WPA2 is the lasest
+
+5)WPA2 is the most secure fo being the most recent and least cracked into.The least secure is WEP because its been out for so long
+that a lot of people already know its "back door"
+
+6.Airsnort is a decryptor of WEP encryptions on an 802.11b network.
+
+7.Kismet is a network detector, packet sniffer, and intrusion detection system for 802.11 networks.To make is legal we need to NOT
+LOG PACKETS,they kismat is fine for everything else
+
+8) Karma is the sum of a person's actions in this and previous states of existence, viewed as deciding their 
+fate in future existences.
+   Karma (Wireless tool) is a EVIL tool that can spoof dns queries
