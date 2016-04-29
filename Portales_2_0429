@@ -1,0 +1,11 @@
+
+1.    a)DD-WRT
+      b)RockBox
+      c)OpenWRT
+      
+2. One advantage of OpenWRT is its ability to replace the default firmware of your router which in turn give you more cnotrol
+  of your network routing needs.It is also open source
+  
+3.NONE
+
+4. One way to install OpenWRT is to install it onto the router's non-volatile memory
